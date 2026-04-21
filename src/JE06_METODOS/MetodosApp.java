@@ -1,5 +1,6 @@
 package JE06_METODOS;
 
+
 public class MetodosApp {
     public static void main(String[] args) {
         Metodos m = new Metodos();
@@ -8,6 +9,9 @@ public class MetodosApp {
         //Aqui estamos instanciando a classe Metodos, para obtermos a funcao de somar. Assim que executa o codigo, ele printa o resultado.
 
         Metodos datas = new Metodos();
-        System.out.println("Data atual é: " + datas.dataAtual());
+        System.out.println("Data atual é: %s%n" + datas.dataAtual());
+
+        Metodos busca = new Metodos();
+        busca.buscaIdeias("8", "9");
     }
 }

@@ -13,6 +13,14 @@ public class Metodos {
     public Date dataAtual() {
         Date dataAtual = new Date();
         return dataAtual;
-        //Aqui por exemplo estamos criando uma instancia na nossa classe para a classe utilitaria que é o Date, no outro arquivo ele retorna a data Atual. 
+        //Aqui por exemplo estamos criando uma instancia na nossa classe para a classe utilitaria que é o Date, no outro arquivo ele retorna a data Atual.
+
+    }
+    public int buscaIdeias(String valor1, String valor2) {
+        int valorRandom = Integer.valueOf(valor2);
+        int valorRandom2 = Integer.valueOf(valor1);
+        int valorTotal = valorRandom + valorRandom2;
+        System.out.println(valorTotal);
+        return valorTotal;
     }
 }
