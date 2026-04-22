@@ -6,6 +6,6 @@ public class contaApp {
         conta.printSaldo();
         conta conta2 = new conta();
         conta2.newSaldo(4.0);
-        conta.printSaldo();
+        conta2.printSaldo();
     }
 }
