@@ -2,7 +2,8 @@ package JE06_METODOS;
 
 import java.util.Date;
 
-//Aqui fala mais sobre como deve ser estruturado os parametros, vou tentar construir um metodo com logica e os outros vao ser so para visualizacao.
+//Aqui fala mais sobre como deve ser estruturado os parametros, vou tentar construir um metodo com logica e os outros
+// vao ser so para visualizacao.
 //Execucao dos metodos é em outro arquivo, possivel MetodosApp.java
 public class Metodos {
     public double somar(double n1, double n2) {
