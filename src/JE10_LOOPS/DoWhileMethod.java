@@ -7,7 +7,6 @@ public class DoWhileMethod {
     int numeroTentativas = 0;
     public boolean tocando() {
         int discagem = new Random().nextInt(5);
-
         numeroTentativas++;
 
         if (discagem == 4) {
